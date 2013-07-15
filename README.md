@@ -1,7 +1,7 @@
 
 # Lightstreamer Round-Trip Demo Client for JavaScript #
 
-This project includes a simple web client front-end example for the [Lightstreamer RoundTrip Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Messenger-adapter-java).
+This project includes a simple web client front-end example for the Lightstreamer RoundTrip Demo Adapter.
 
 ## Round-Trip Demo ##
 
