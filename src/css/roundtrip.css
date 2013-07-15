@@ -1,0 +1,74 @@
+/*
+ * LIGHTSTREAMER - www.lightstreamer.com
+ * Round-Trip Demo
+ *
+ *  Copyright 2013 Weswit Srl
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.demoTitle {
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 9pt;
+  color: #000000;
+  font-weight: bold;
+  text-align: right;
+}
+.itemtitlelight { 
+	font-family: Verdana; 
+	font-size: 8pt; 
+	color: #ffffff; 
+	background: #008080; 
+	text-align: center;
+	font-weight: normal;
+}  
+.tabletitle { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 7pt; 
+	color: #FFFFFF; 
+	background: #008080; 
+	font-weight: bold; 
+	text-align: center;
+}
+.note { 
+	font-family: Verdana; 
+	font-size: 7pt; 
+	color: #000000; 
+	background: #ffffff;
+	font-weight: normal; 
+	text-align: center;
+}
+.itemtitle { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	color: #ffffff; 
+	background: #008080; 
+	font-weight: normal; 
+	text-align: center;
+}
+.lscold { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 8pt; 
+	background: #c8f2f2;
+	text-align: center;
+}
+.message { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+ 	font-weight: bold; 
+	font-size: 8pt; 
+  color: #003c3a;
+	text-align: left;
+}
+#wrap {
+  width: 750px;
+  margin: 0 auto;
+}

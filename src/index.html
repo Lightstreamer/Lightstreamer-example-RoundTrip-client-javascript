@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<!--
+  LIGHTSTREAMER - www.lightstreamer.com
+  Round-Trip Demo
+  
+  Copyright 2013 Weswit s.r.l.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Lightstreamer :: Round-Trip Demo</title>
+  <link rel="stylesheet" type="text/css" href="css/roundtrip.css" />
+</head>
+
+<body>
+  <div id="wrap">
+    <table width="750px" border="0">  
+      <tr>
+        <td><a href="http://www.lightstreamer.com" target="_blank">
+          <img src="images/logo.png" alt="LIGHTSTREAMER" hspace="0" border="0" /></a></td>
+        <td class="demoTitle">ROUND-TRIP DEMO</td>
+      </tr>
+    </table>
+
+    <br />
+    
+    <form onsubmit="return false">
+      <table cellspacing="2" cellpadding="0" border="0" width="750px"> 
+        <tr> 
+          <td nowrap class="itemtitlelight">&nbsp;Publish Item 1:</td> 
+          <td><input disabled type="text" size="103" onkeyup="ssubmit(0,this.value)"></td> 
+        </tr> 
+        <tr> 
+          <td nowrap class="itemtitlelight">&nbsp;Publish Item 2:</td> 
+          <td><input disabled type="text" size="103" onkeyup="ssubmit(1,this.value)"></td> 
+        </tr> 
+        <tr> 
+          <td nowrap class="itemtitlelight">&nbsp;Publish Item 3:</td> 
+          <td><input disabled type="text" size="103" onkeyup="ssubmit(2,this.value)"></td> 
+        </tr> 
+        <tr> 
+          <td nowrap class="itemtitlelight">&nbsp;Publish Item 4:</td> 
+          <td><input disabled type="text" size="103" onkeyup="ssubmit(3,this.value)"></td> 
+        </tr> 
+        <tr> 
+          <td nowrap class="itemtitlelight">&nbsp;Publish Item 5:</td> 
+          <td><input disabled type="text"size="103" onkeyup="ssubmit(4,this.value)"></td> 
+        </tr> 
+        <tr> 
+          <td colspan="2" class="note" style="text-align:left">Type some text 
+          in the fields above to see your messages <b>broadcast in real-time, 
+          character by character</b>, to any browsers connected to this page.<p> 
+          </p> 
+          </td> 
+        </tr> 
+      </table> 
+    </form>
+    
+    <br />
+    <br />
+      
+    <table cellspacing="1" cellpadding="2" border="0" style="width: 750px">
+      <tr class="tabletitle">
+        <td nowrap style="width: 25px">Item</td>
+        <td nowrap style="width: 390px">Value</td>
+        <td nowrap style="width: 180px">Last Modified (GMT+01:00)</td>
+        <td nowrap style="width: 140px">Modified by IP</td>
+      </tr>
+      <tr class="lscold" id="r1">
+        <td nowrap class="itemtitle">1</td>
+        <td class="message">
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip0" data-field="message">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip0" data-field="timestamp">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip0" data-field="IP">-</div>
+        </td>
+      </tr>
+      <tr class="lscold">
+        <td nowrap class="itemtitle">2</td>
+        <td class="message">
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip1" data-field="message">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip1" data-field="timestamp">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip1" data-field="IP">-</div>
+        </td>
+      </tr>
+      <tr class="lscold">
+        <td nowrap class="itemtitle">3</td>
+        <td class="message">
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip2" data-field="message">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip2" data-field="timestamp">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip2" data-field="IP">-</div>
+        </td>
+      </tr>
+      <tr class="lscold">
+        <td nowrap class="itemtitle">4</td>
+        <td class="message">
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip3" data-field="message">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip3" data-field="timestamp">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip3" data-field="IP">-</div>
+        </td>
+      </tr>
+      <tr class="lscold">
+        <td nowrap class="itemtitle">5</td>
+        <td class="message">
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip4" data-field="message">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip4" data-field="timestamp">-</div>
+        </td>
+        <td nowrap>
+          <div data-source="lightstreamer" data-grid="roundtrip" data-item="roundtrip4" data-field="IP">-</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<script src="js/require.js"></script>
+<script src="js/lightstreamer.js"></script>
+<script type="text/javascript">
+
+//////////////// Message Submission Form Handling
+  var client = null;
+  require(["js/lsClient"],function(lsClient) {
+    //save references to the LightstreamerClient to be used to 
+    //send messages
+    client = lsClient;
+
+    //enable/disable form based on the status of the connection
+    lsClient.addListener({
+      onStatusChange: function(newStatus) {
+        if (newStatus.indexOf("CONNECTED") == 0) {
+          changeFormStatus(false);
+        } else {
+          changeFormStatus(true);
+        }
+      }
+    });
+  });
+  
+  var inputs = document.getElementsByTagName("input");
+  function changeFormStatus(disabled) {
+    for (var i = 0; i < inputs.length; i++) {
+      inputs[i].disabled = disabled;
+    }
+  }
+  
+  function ssubmit(nItem,message) {
+    var completeMex = "RT|"+nItem+"|"+message;
+    client.sendMessage(completeMex);
+  }
+
+//////////////// Formatting Helper
+
+  function StringBreaker(limit) {
+    this.limit = limit;
+    this.patternS = "(";
+    for (var i = 0; i < limit; i++) {
+      this.patternS += "\\S";
+    }
+    this.pattern = new RegExp(this.patternS + ")", "g");
+    // see http://www.quirksmode.org/oddsandends/wbr.html
+    this.repl = "$1&#8203;"
+  }
+  StringBreaker.prototype = {
+    // insert soft breaks in long words
+    breakString: function(source) {
+      var target = source.replace(this.pattern, this.repl);
+      target = target.replace(/</g, "&lt;");
+      return target;
+    }
+  };
+  
+  
+
+//////////////// Grid and Subscription Management  
+
+  require(["js/lsClient","StaticGrid","Subscription"],function(lsClient,StaticGrid,Subscription) {   
+    
+    var sb = new StringBreaker(35);
+    
+    //  create the DynaGrid
+    var rtGrid = new StaticGrid("roundtrip",true);
+    rtGrid.setAutoCleanBehavior(true, false);
+    rtGrid.setHtmlInterpretationEnabled(true);
+    rtGrid.addListener({
+      onVisualUpdate: function(key,info,domNode) {
+        if (info == null) {
+          return;
+        }
+        info.setHotToColdTime(6000);
+        info.setHotTime(1000);
+        info.setAttribute("red", "#003c3a", "color");
+
+        // format value
+        var value = info.getChangedFieldValue("message");
+        if (value != null) {
+          value = sb.breakString(value);
+          info.setCellValue("message", value);
+        }
+        
+      }
+    
+    });
+    
+    //  create the Subscription; item and field names will be extracted from the grid
+    var rtSubscription = new Subscription("MERGE",rtGrid.extractItemList(),rtGrid.extractFieldList());
+    rtSubscription.setDataAdapter("ROUNDTRIP_ADAPTER");
+    rtSubscription.setRequestedSnapshot("yes"); 
+    
+    rtSubscription.addListener(rtGrid);
+    lsClient.subscribe(rtSubscription);
+  });
+
+</script>
+
+</body>
+
+</html>
