@@ -34,10 +34,10 @@ The demo includes the following client-side technologies:
 Before you can run the demo some dependencies need to be solved:
 
 -  Get the lightstreamer.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
-   and put it in the src/[demo_name]/js folder of the demo (if that is the case, please create it). Alternatively you can build a lightstreamer.js file from the 
+   and put it in the src/js folder of the demo (if that is the case, please create it). Alternatively you can build a lightstreamer.js file from the 
    [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
-   In that case be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules and to use the "Use AMD" version.
--  Get the require.js file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the src/[demo_name]/js folder of the demo.
+   In that case be sure to include the LightstreamerClient, Subscription, StaticGrid, and StatusWidget modules and to use the "Use AMD" version.
+-  Get the require.js file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the src/js folder of the demo.
 
 You can deploy this demo in order to use the Lightstreamer server as Web server or in any external Web Server you are running. 
 If you choose the former case please create the folders "<LS_HOME>/pages/demos/RoundTripDemo" then copy here the contents of the /src folder of this project.<br>
