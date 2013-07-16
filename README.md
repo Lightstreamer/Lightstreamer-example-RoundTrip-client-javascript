@@ -53,7 +53,7 @@ The demo are now ready to be launched.
 
 ## Lightstreamer Adapters needed by these demo clients ##
 
-* [Lightstreamer RoundTrip Demo Adapter]()
+* (To be add: Lightstreamer RoundTrip Demo Adapter)
 
 ## Similar demo clients that may interest you ##
 
