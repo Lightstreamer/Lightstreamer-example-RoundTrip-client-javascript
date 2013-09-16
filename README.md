@@ -46,14 +46,14 @@ The client demo configuration assumes that Lightstreamer Server, Lightstreamer A
 var lsClient = new LightstreamerClient(protocolToUse+"//localhost:8080","DEMO");
 ```
 in js/lsClient.js file and change it accordingly.<br>
-Anyway the [ROUNDTRIP_ADAPTER]() and [RoundTripMetadataAdapter]() Adapters have to be deployed in your local Lightstreamer server instance.<br>
+Anyway the [ROUNDTRIP_ADAPTER](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java) and [RoundTripMetadataAdapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java) Adapters have to be deployed in your local Lightstreamer server instance.<br>
 The demo are now ready to be launched.
 
 # See Also #
 
-## Lightstreamer Adapters needed by these demo clients ##
+## Lightstreamer Adapters needed by this demo client ##
 
-* (To be add: Lightstreamer RoundTrip Demo Adapter)
+* [Lightstreamer Round-Trip Demo Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
 
 ## Similar demo clients that may interest you ##
 
