@@ -1,4 +1,3 @@
-
 # Lightstreamer Round-Trip Demo Client for JavaScript #
 
 This project includes a simple web client front-end example for the Lightstreamer RoundTrip Demo Adapter.
@@ -8,7 +7,7 @@ This project includes a simple web client front-end example for the Lightstreame
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/RoundTripDemo" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_roundtrip.png"></a>&nbsp;
+      &nbsp;<a href="http://demos.lightstreamer.com/RoundTripDemo" target="_blank"><img src="screen_roundtrip.png"></a>&nbsp;
       
     </td>
     <td>
