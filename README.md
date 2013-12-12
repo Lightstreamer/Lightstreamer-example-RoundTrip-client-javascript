@@ -1,8 +1,6 @@
-# Lightstreamer Round-Trip Demo Client for JavaScript #
+# Lightstreamer - Round-Trip Demo - HTML Client #
 
 This project includes a simple web client front-end example for the Lightstreamer RoundTrip Demo Adapter.
-
-## Round-Trip Demo ##
 
 <table>
   <tr>
@@ -52,12 +50,12 @@ The demo are now ready to be launched.
 
 ## Lightstreamer Adapters needed by this demo client ##
 
-* [Lightstreamer Round-Trip Demo Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
+* [Lightstreamer - Round-Trip Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
 
 ## Similar demo clients that may interest you ##
 
-* [Lightstreamer Chat Demo Client for JavaScript](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
-* [Lightstreamer Messenger Demo Client for JavaScript](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
+* [Lightstreamer - Chat Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
+* [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
 
 # Lightstreamer Compatibility Notes #
 
