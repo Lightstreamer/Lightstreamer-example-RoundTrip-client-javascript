@@ -50,7 +50,7 @@ The demo are now ready to be launched.
 
 ## Lightstreamer Adapters needed by this demo client ##
 
-* [Lightstreamer - Round-Trip Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
+* [Lightstreamer - Round-Trip Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
 
 ## Similar demo clients that may interest you ##
 
