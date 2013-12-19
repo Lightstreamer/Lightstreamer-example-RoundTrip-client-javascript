@@ -40,7 +40,7 @@ You can deploy this demo in order to use the Lightstreamer server as Web server 
 If you choose the former case please create the folders "<LS_HOME>/pages/demos/RoundTripDemo" then copy here the contents of the /src folder of this project.<br>
 The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters and this client are launched on the same machine. If you need to targeting a different Lightstreamer server please search this line:
 ```js
-var lsClient = new LightstreamerClient(protocolToUse+"//localhost:8080","DEMO");
+var lsClient = new LightstreamerClient(protocolToUse+"//localhost:8080","ROUNDTRIPDEMO");
 ```
 in js/lsClient.js file and change it accordingly.<br>
 Anyway the [ROUNDTRIP_ADAPTER](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java) and [RoundTripMetadataAdapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java) Adapters have to be deployed in your local Lightstreamer server instance.<br>
