@@ -24,7 +24,7 @@ The grid to the bottom reports the originating IP address and the timestamp of t
 
 <i>Note: When you publish a value your IP address is publicly displayed.</i>
 
-The demo includes the following client-side technologies:
+The demo includes the following client-side functionalities:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 5 items, subscribed to in <b>MERGE</b> mode feeding a [StaticGrid](http://www.lightstreamer.com/docs/client_javascript_uni_api/StaticGrid.html).
 * The messages are sent to the Lightstreamer Server using the [LightstreamerClient.sendMessage](http://www.lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html#sendMessage) utility.
 
