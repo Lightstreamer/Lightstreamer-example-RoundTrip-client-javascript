@@ -2,20 +2,10 @@
 
 <!-- START DESCRIPTION lightstreamer-example-roundtrip-client-javascript -->
 
-This project includes a simple web client front-end example for the Lightstreamer RoundTrip Demo Adapter.
+This project includes a simple web client front-end example for the [Lightstreamer - Round-Trip Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java).
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/RoundTripDemo" target="_blank"><img src="screen_roundtrip.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://demos.lightstreamer.com/RoundTripDemo" target="_blank">http://demos.lightstreamer.com/RoundTripDemo</a>
-    </td>
-  </tr>
-</table>
+[![screenshot](screen_roundtrip_large.png)](http://demos.lightstreamer.com/RoundTripDemo)<br>
+An online demonstration is hosted on our servers at: [http://demos.lightstreamer.com/RoundTripDemo](http://demos.lightstreamer.com/RoundTripDemo)
 
 The Round-Trip Demo uses the <b>JavaScript Client API for Lightstreamer</b> to let you broadcast messages as you type, character by character, to all the browsers displaying that page. Type anything in the 5 fields. Your characters will be delivered to the server, which will send them back to all the browsers, including yours (in the bottom grid). Launch multiple instances of the demo, possibly on different browsers or different machines, to really appreciate the broadcast capabilities. 
 You will type some text in a browser and see it appear in real time on another browser.<br>
@@ -51,13 +41,13 @@ The demo are now ready to be launched.
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Round-Trip Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-RoundTrip-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Basic Chat Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
 * [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
