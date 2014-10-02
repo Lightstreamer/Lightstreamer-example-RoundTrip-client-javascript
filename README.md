@@ -44,7 +44,7 @@ var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"R
 ```
 in `js/lsClient.js` file and change it accordingly.<br>
 
-The demo are now ready to be launched.
+The demo is now ready to be launched.
 
 ## See Also
 
