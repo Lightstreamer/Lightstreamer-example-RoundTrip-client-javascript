@@ -32,7 +32,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 * Launch Lightstreamer Server.
 * Get the `lightstreamer.js` file from the [Lightstreamer 5 Colosseo distribution](http://www.lightstreamer.com/download) and put it in the `src/js` folder of the demo (if that is the case, please create it). Alternatively, you can build a `lightstreamer.js` file from the 
   [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
-  In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, and StatusWidget modules and to use the "Use AMD" version.
+  In that case, be sure to include the LightstreamerClient, Subscription, StaticGrid, ConnectionSharing, and StatusWidget modules and to use the "Use AMD" version.
 * Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/js` folder of the demo.
 
 
