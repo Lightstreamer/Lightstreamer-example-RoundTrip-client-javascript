@@ -6,8 +6,8 @@ This project includes a simple web client front-end example for the [Lightstream
 
 ## Live Demo
 
-[![screenshot](screen_roundtrip_large.png)](http://demos.lightstreamer.com/RoundTripDemo)<br>
-### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/RoundTripDemo)
+[![screenshot](screen_roundtrip_large.png)](https://demos.lightstreamer.com/RoundTripDemo/)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](https://demos.lightstreamer.com/RoundTripDemo/)
 
 ## Details
 
